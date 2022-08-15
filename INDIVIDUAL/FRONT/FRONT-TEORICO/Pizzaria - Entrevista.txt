@@ -1,0 +1,23 @@
+Projeto Fig
+
+Website: Pizzaria 
+
+- Home ( Promoção / Destaques Ex: Mais vendidos ).
+
+- Cardapio ( Pedido / Opção de montar sua pizza / Opção Vegana e Vegetariana ).
+
+- Contato ( Sobre / Locais / Contato Telefone, Email ).
+
+- Cadastro/Login ( Endereço / Dados / Metodo de Pagamento Previo ). 
+
+- 
+
+- Logotipo (Branco/ Vermelho e Azul).
+
+Nome dos Grupos:
+
+Akira Yamada
+Brenner Pereira Santos
+Gabriel Sanches
+Gustavo Stefano
+Renan Pires
