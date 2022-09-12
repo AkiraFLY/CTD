@@ -1,0 +1,138 @@
+* {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+
+    display: flex; /* Aplica a estratégia de flex */
+    justify-content: space-between; /* Diz que os itens do Header irão ficar horizontalmente em espaços opostos */
+    align-items: center; /* Alinha os itens verticalmente no Centro */
+    background-color: rgb(42, 114, 165);
+    height: 80px;
+    padding: 20px 40px;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 50;
+
+}
+
+.main-menu {
+
+    display: flex;
+    list-style: none;
+    gap: 24px;
+
+}
+
+.main-menu a {
+
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+
+}
+
+.main-site-content {
+
+    display: flex; /* Aplica a estratégia de flex */
+    flex-wrap: wrap; /* Possibilita os itens irem para a "linha de baixo" caso não exista espaço o suficiente para eles ficarem um ao lado do outro */
+    justify-content: center; /* Diz que os itens do elemento que tiver a classe "main-site-content" irão ficar horizontalmente no centro */
+    gap: 12px; /* Adiciona um espaçamento entre os itens */
+    min-height: 100vh;
+    padding: 40px;
+
+}
+
+.hero-card {
+
+    width: 600px;
+    background-color: crimson;
+    /* padding: 40px; */
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+
+}
+
+.hero-card .favorite-icon {
+
+    width: 24px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+
+}
+
+.hero-card main {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.hero-card .background-image {
+
+    width: 100%;
+    margin-bottom: -100px;
+
+}
+
+.hero-card .profile-image {
+
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+
+}
+
+.hero-card p {
+
+    /* margin: 0 40px; */
+    position: relative;
+
+}
+
+footer {
+
+    background-color: aquamarine;
+    height: 200px;
+
+}
+
+@media (max-width: 768px) {
+    body {
+        background-color: black;
+    }
+    header {
+
+        flex-wrap: wrap;
+        gap: 20px;
+        height: fit-content;
+        justify-content: center;
+        
+
+    }
+    ul{
+        flex-wrap: wrap;
+
+    }
+
+
+    
+}
+@media (max-width: 320px) {
+    header{
+        justify-content: center;
+    }
+    ul{
+       flex-direction: column;
+    }
+    }

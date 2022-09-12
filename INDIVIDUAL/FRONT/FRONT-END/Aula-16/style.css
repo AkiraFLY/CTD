@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+
+}
+main{
+width: 100%;
+height: 80vh;
+display: flex;
+justify-content: center;
+
+
+}
+.desconto{
+    background-color: #1CD1B0;
+    width: 100%;
+    padding-left: 20px;
+    font-size: small;
+
+}
+header{
+
+    display: flex;
+    width: 100%;
+    height: 80px;
+    background-color: #00669F;
+    align-items: center;
+
+
+}
+header h1{
+    color: white;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+    padding: 0% 20px;
+}
+
+   
+form{
+
+width: 100%;
+max-width: 400px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+gap: 20px;
+padding: 12px;
+
+
+}
+footer{
+    width: 100%;
+    height: 30px;
+    background-color: #00669F;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer h1 {
+    font-size: small;
+    color: white;
+
+}

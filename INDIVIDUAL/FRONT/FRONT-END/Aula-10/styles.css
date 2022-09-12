@@ -1,0 +1,95 @@
+* {
+
+    padding: 0px;
+    margin: 0px;
+
+}
+.desconto{
+    width: auto;
+    background-color: aquamarine;
+    padding: 5px;
+}
+.percent {
+    font-size: small;
+
+
+}
+
+
+.top{
+    width: auto;
+    padding: 15px;
+    background-color: blue;
+
+}
+
+.main1 {
+
+    display: flex;
+    width: auto;
+    padding: 75px;
+    gap: 35px;
+    justify-content: center;
+
+}
+
+.box {
+
+    
+    width: 400px;
+    height: fit-content;
+    background-color: rgb(255, 255, 255);
+    border-radius: 15px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    
+
+}
+img {
+    width: 100%;
+
+}
+
+
+
+
+
+.icon{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 150px;
+    position: absolute;
+    top: 170px;
+    
+}
+
+.h1box{
+    text-align: center;
+    margin-top: 100px;
+}
+p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.btn{
+    padding: 10px;
+    margin: auto;
+    background-color: #048f04
+    
+}
+
+.fav{
+    
+    object-fit: cover;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 20px;
+    border-radius: 50%;
+}
