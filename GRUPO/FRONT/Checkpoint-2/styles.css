@@ -63,7 +63,7 @@
     align-items: center;
     justify-content: center;
     gap: 15px;
-    background-color: rgb(0, 53, 150);
+    background: linear-gradient(to right, #011a8e, #336bff );
     color: aliceblue;
 }
 .select-custom{
@@ -95,16 +95,20 @@
 
 
 .formulario_busca img{
+
     width: 50px;
     height: 50px;
+
 }
 
 
 
-.main-welcome img {
+.main-welcome img{
 
-    height: 93vh;
+    height: calc(100vh - 160px);
 }
+
+
 
 .main-welcome h1 {
 
@@ -115,7 +119,13 @@
 .section-hotel{
 
     width: 100%;
-    height: 150vh;
+    height: fit-content;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
 }
 
 .section-hotel h1{
@@ -125,22 +135,38 @@
     text-align: center;
     padding: 20px;
     color: rgb(25, 0, 255);
+
 }
 
 .card{
 
+    position: relative;
+    width: 100%;
+    height: fit-content;
+    min-height: 250px;
     margin-bottom: 20px;
     transition: transform .2s;
-     
-      
+    background-image:url(imagens/Burj\ Al\ Arab.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px;
+    
+    
 }
 .card:hover{
 
     transform: scale(1.1);
-  
-    
-    background-color: antiquewhite;
+    background-color: #faebd7;
+
 }
+.promo{
+    position: absolute;
+    width: 100%;
+    max-width: 60px;
+    height: 40px;
+    background-color: #d3f060;
+}
+
 
 .footer{
     
