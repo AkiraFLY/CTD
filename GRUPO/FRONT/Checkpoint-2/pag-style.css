@@ -111,21 +111,6 @@
     height: 93vh;
 }
 
-.main-welcome h1 {
-
-    font-family:'Josefin Slab';
-    font-weight: bold;
-    
-}
-
-.main-welcome h2 {
-
-    font-family:'Josefin Slab';
-    font-weight: bold;
-    font-size: medium;
-    
-}
-
 .section-hotel{
 
     width: 100%;
@@ -138,48 +123,124 @@
     height: 90vh;
 }
 
+.name-section {
 
-.info-pag {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    padding: 60px;
-    gap: 50px;  
+    width: 95%;    
+    font-family:'Josefin Slab';    
+    font-weight: 700;
+    padding-left: 60px;
+    margin: 30px;   
+
 
 }
 
+
+
+.name-section span{
+
+    font-size: 25px;
+}
+
+.name-section span:hover{
+
+    color: #f0c509;
+    cursor:pointer ;
+    transition: 650ms;
+
+}
+
+.name-section p {
+
+    width: 900px;
+    font-size: 15px;
+    margin-top: 10px;
+    
+}
+   
+
+.info-pag {
+    
+    width: 95%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-left: 60px;
+    margin: 30px; 
+    margin-top: 50px;
+    gap: 30px;  
+
+}
+
+
+
+.list-serve {
+
+    list-style: none;
+    
+}
 
 .info-pag h2 {
 
     font-family:'Josefin Slab';
     font-weight: bold;
     font-size: medium;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
 
 }
 
 .info-main {
 
-    width: 400px;
-    background-color: rgba(174, 174, 245, 0.103);
+    width: 300px;
+    background-color: rgba(157, 157, 163, 0.103);
     padding: 15px;
     border-radius: 20px;
+    transition: 1000ms;
+
     
 }
 
+.banner-section {
 
-.info-main:hover {
+    max-width: 500px ;
+    max-height: 300vh ;
+    margin-left: 30px;
+    object-fit: contain;
 
-    scale:calc(1.2) ;
-    transition: 2ms;
+   
 }
 
 
-.video-pag {
+.button-section {
+
+    width: 350px;
+    align-content: center;
+    margin: 60px auto;
+}
+
+.button-reserv {
+
+    width: 100%;
+    margin: 0 auto;
+    height: 50px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: 'Josefin Slab' ;
+    font-weight: bold;
+    background-color: #003596;
+    color: white;
+    border: none;
+    transition: 500ms;
+     
+}
 
 
-    
+
+.button-reserv:hover {
+
+    scale:calc(1.1);
+    background-color: #0446c0;
+
 }
 
 
