@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Josefin+Slab:wght@300;400;700&family=Julius+Sans+One&display=swap');
 
+
 * {
 
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 
 }
 .body{
@@ -31,14 +33,13 @@
 
 .navbar-custom{
     /* background-color: rgba(45, 75, 228, 0.886); */
-    background-color: rgba(61, 61, 61, 0);
+    background-color: #3d3d3d00;
 }
 
 
 .navbarul-custom{
 
     width: 100%;
-    height: 20px;
     justify-content: end;
     align-items: center;
     padding: 15px;
@@ -101,22 +102,19 @@
 
 }
 
-.media-picturep1{
-    height: 93vh;
-    width: 100%;
-    background-size: cover;
-    background-position: center;
-}
 
-<<<<<<< HEAD
-.main-welcome img{
+
+.main-welcome {
 
     height: calc(100vh - 160px);
-=======
-.main-welcome img {
-    
-    height: 93vh;
->>>>>>> 28ceae621f4ff03033e5be6b5e08185b73c3dc3e
+}
+
+.main-welcome img{
+    height: 100%;
+    object-fit: cover;
+}
+.main-welcome .carousel, .main-welcome .carousel-inner, .main-welcome .carousel-item{
+    height: 100%;
 }
 
 
@@ -127,15 +125,6 @@
     font-weight: bold;
     
 }
-
-.main-welcome h2 {
-
-    font-family:'Josefin Slab';
-    font-weight: bold;
-    font-size: medium;
-    
-}
-
 .section-hotel{
 
     width: 100%;
@@ -148,12 +137,6 @@
 
 }
 
-.section-hotel-exclusive{
-
-    width: 100%;
-    height: 90vh;
-}
-
 .section-hotel h1{
 
     font-family:'Josefin Slab';
@@ -163,32 +146,13 @@
     color: rgb(25, 0, 255);
 
 }
+.card-body{
 
-.section-hotel h2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 
-    font-family:'Josefin Slab';
-    font-weight: bold;
-    text-align: left;
-    padding: 40px;
-    color: rgb(6, 0, 57);
-}
-
-.section-hotel-exclusive h1{
-
-    font-family:'Josefin Slab';
-    font-weight: bold;
-    text-align: center;
-    padding: 20px;
-    color: rgb(25, 0, 255);
-}
-
-.section-hotel-exclusive h2{
-
-    font-family:'Josefin Slab';
-    font-weight: bold;
-    text-align: left;
-    padding: 40px;
-    color: rgb(6, 0, 57);
 }
 
 .card{
@@ -204,7 +168,11 @@
     background-repeat: no-repeat;
     border-radius: 15px;
     
-    
+}
+
+.barcelona-custom{
+    background-image:url(imagens/W\ Barcelona\,\ em\ Barcelona.jpg);
+
 }
 .card:hover{
 
@@ -213,11 +181,19 @@
 
 }
 .promo{
+
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     width: 100%;
     max-width: 60px;
     height: 40px;
     background-color: #d3f060;
+    font-size: larger;
+    top: 10px;
+    left: 310px;
+    z-index: 10;
 }
 
 
