@@ -190,14 +190,23 @@
 }
 
 .info-main {
-
     width: 300px;
     background-color: rgba(157, 157, 163, 0.103);
     padding: 15px;
     border-radius: 20px;
     transition: 1000ms;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+}
 
-    
+.main-site-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 36px;
+    min-height: 177px;
+    background-color: #012407;
 }
 
 .banner-section {
@@ -278,4 +287,13 @@
     border-radius: 50%;
     
 
+}
+
+.video-style {
+    width: 1077px;
+    height: 534px;
+    background-color: white;
+    border-radius: 31px;
+    overflow: hidden;
+    position: relative;
 }
