@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Gruppo&family=Josefin+Slab:wght@300;400;700&family=Julius+Sans+One&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+
+}
+.body{
+    background-color: blue;
+}
+
+.main-header{
+    
+    position:sticky;
+    top: 0;
+    z-index: 20;
+    background-color: rgba(230, 247, 247, 0.096);
+    backdrop-filter: blur(1px);
+    
+}
+
+.icon-top{
+
+    width: 250px;
+    height: 80px;
+    padding-left: 70px;
+
+}
+
+
+.navbar-custom{
+    /* background-color: rgba(45, 75, 228, 0.886); */
+    background-color: rgba(61, 61, 61, 0);
+}
+
+
+.navbarul-custom{
+
+    width: 100%;
+    height: 20px;
+    justify-content: end;
+    align-items: center;
+    padding: 15px;
+    gap: 10px;
+
+}
+.navbarul-custom a{
+
+    font-family:'Josefin Slab';
+    font-size: 20px;
+    font-weight: bold;
+    color:rgb(190, 160, 25);
+}
+.navbarul-custom a:hover{
+    color: rgba(232, 217, 4, 0.768);
+}
+
+.formulario_busca{
+    width: 100%;
+    height:80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    background-color: rgb(0, 53, 150);
+    color: aliceblue;
+}
+.select-custom{
+
+    max-width: 250px ;
+
+
+}
+.bttn_search{
+
+    font-family:'Josefin Slab';
+    font-weight: bold;
+    font-size: 20px;
+    width: 100px;
+    padding: 10px;
+    background-color: rgba(0, 52, 150, 0);
+    color: white;
+    border-radius: 50px;
+    border: 1px solid white;
+    
+    
+}
+.bttn_search:hover{
+
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+}
+
+
+.formulario_busca img{
+    width: 50px;
+    height: 50px;
+}
+
+.media-picturep1{
+    height: 93vh;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.main-welcome img {
+    
+    height: 93vh;
+}
+
+.main-welcome h1 {
+
+    font-family:'Josefin Slab';
+    font-weight: bold;
+    
+}
+
+.main-welcome h2 {
+
+    font-family:'Josefin Slab';
+    font-weight: bold;
+    font-size: medium;
+    
+}
+
+.section-hotel{
+
+    width: 100%;
+    height: 150vh;
+}
+
+.section-hotel-exclusive{
+
+    width: 100%;
+    height: 90vh;
+}
+
+
+.info-pag {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 60px;
+    gap: 50px;  
+
+}
+
+
+.info-pag h2 {
+
+    font-family:'Josefin Slab';
+    font-weight: bold;
+    font-size: medium;
+    font-size: 30px;
+    text-align: center;
+
+}
+
+.info-main {
+
+    width: 400px;
+    background-color: rgba(174, 174, 245, 0.103);
+    padding: 15px;
+    border-radius: 20px;
+    
+}
+
+
+.info-main:hover {
+
+    scale:calc(1.2) ;
+    transition: 2ms;
+}
+
+
+.video-pag {
+
+
+    
+}
+
+
+.footer{
+    
+    width: 100%;
+    height: 20vh;
+}
+.footer-content{
+
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.footer-content h1{
+
+    font-family: 'Josefin Slab ';
+    color:white;
+
+}
+
+.custom-icon{
+
+    width: 200px;
+    height: 200px;
+
+}
+
+.custom-icon img{
+
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    
+
+}
