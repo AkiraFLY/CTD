@@ -30,6 +30,7 @@
 }
 
 
+
 .navbar-custom{
     /* background-color: rgba(45, 75, 228, 0.886); */
     background-color: #3d3d3d00;
@@ -238,4 +239,78 @@
     border-radius: 50%;
     
 
+}
+
+
+/* PARTE DO LOGIN */
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* PARTE DO RESPONSIVO */
+
+@media (max-width: 425px) {
+    
+
+    .formulario_busca{
+        width: 100%;
+        height:fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 15px;
+        padding: 10px;
+        background: linear-gradient(to right, #011a8e, #336bff );
+        color: aliceblue;
+    }
+
+    .footer-content{
+
+        background-color: blue;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    }
+    .promo{
+
+
+        left: 350px;
+    }
+
+}
+@media (max-width: 375px) {
+    .promo{
+
+        left: 310px;
+        
+    }
+}
+@media (max-width: 320px) {
+    .promo{
+
+        left: 250px;
+        
+    }
 }
