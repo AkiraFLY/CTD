@@ -80,13 +80,14 @@
 
 
 }
+
 .bttn_search{
 
     font-family:'Josefin Slab';
     font-weight: bold;
     font-size: 20px;
     width: 100px;
-    padding: 10px;
+    padding: 15px;
     background-color: rgba(0, 52, 150, 0);
     color: white;
     border-radius: 50px;
@@ -130,6 +131,18 @@
 .main-welcome .carousel, .main-welcome .carousel-inner, .main-welcome .carousel-item{
     height: 100%;
 }
+
+.saiba-bttn{
+
+    background: linear-gradient(to right, #011a8e, #336bff );
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    border: 0px;
+    padding: 10px; 
+    border-radius: 50px;
+}
+
 
 
 
@@ -196,7 +209,8 @@
 .card-text{
 
     font-weight: normal;
-    color: rgb(255, 255, 255);
+    font-weight: bold;
+    color: rgb(18, 18, 18);
     backdrop-filter: blur(0.5px)
        
 
@@ -229,7 +243,7 @@
     background-color: #faebd7;
 
 }
-.promo{
+/* .promo{
 
     position: absolute;
     display: flex;
@@ -242,8 +256,8 @@
     font-size: larger;
     top: 10px;
     left: 310px;
-    z-index: 10;
-}
+    
+} */
 
 
 .footer{
