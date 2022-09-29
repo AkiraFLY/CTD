@@ -42,6 +42,7 @@ form{
 
 }
 
+
 .input-field{
     position: relative;
 
@@ -62,7 +63,7 @@ form{
 
 
 form input[type="submit"]{
-
+    
     margin-top: 2rem;
     padding: 0.4rem;
     background: linear-gradient(to left, #011a8e, #336bff );
@@ -130,4 +131,13 @@ form input[type="submit"]:hover{
     border-radius: 4px;
 }
 
+.home{
+    
+    margin-top: 4px;
+    background: linear-gradient(to right, #585858, #a8a8a8);
+    padding: 0.4rem;
+    border-radius: 4px;
+    text-align: center;
+    
 
+}
