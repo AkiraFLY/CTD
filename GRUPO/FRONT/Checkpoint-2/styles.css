@@ -20,22 +20,7 @@
     backdrop-filter: blur(1px);
 }
 
-.card-title{
 
-    font-size: x-large;
-    font-weight: bolder;
-    color: black;
-    text-shadow: 3, 1, 1;
-
-}
-
-.card-text{
-
-    font-weight: normal;
-    color: black;
-    backdrop-filter: blur(0.5px)
-
-}
 
 .icon-top{
 
@@ -179,6 +164,7 @@
 }
 
 .card{
+
     position: relative;
     width: 100%;
     height: fit-content;
@@ -189,6 +175,25 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
+    
+
+}
+.card-title{
+
+    font-size: 35px;
+    font-weight: bolder;
+    color:  rgb(20, 20, 20);
+    text-shadow: 3, 1, 1;
+
+}
+
+.card-text{
+
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+    backdrop-filter: blur(0.5px)
+       
+
 }
 
 
