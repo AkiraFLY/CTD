@@ -18,7 +18,23 @@
     z-index: 20;
     background-color: rgba(230, 247, 247, 0.096);
     backdrop-filter: blur(1px);
-    
+}
+
+.card-title{
+
+    font-size: x-large;
+    font-weight: bolder;
+    color: black;
+    text-shadow: 3, 1, 1;
+
+}
+
+.card-text{
+
+    font-weight: normal;
+    color: black;
+    backdrop-filter: blur(0.5px)
+
 }
 
 .icon-top{
@@ -163,7 +179,6 @@
 }
 
 .card{
-
     position: relative;
     width: 100%;
     height: fit-content;
@@ -174,12 +189,27 @@
     background-size: cover;
     background-repeat: no-repeat;
     border-radius: 15px;
-    
 }
 
-.barcelona-custom{
-    background-image:url(imagens/W\ Barcelona\,\ em\ Barcelona.jpg);
 
+.caribe-custom{
+    background-image:url(imagens/praia);
+}
+
+.roma-custom{
+    background-image:url(imagens/Roma.jpg);
+}
+
+.maldive-custom{
+    background-image:url(imagens/Niyama\ Maldives\,\ nas\ Maldivas.jpg);
+}
+
+.paris-custom{
+    background-image:url(imagens/paris.jpg);
+}
+
+.miami-custom{
+    background-image:url(imagens/miami.jpg);
 }
 
 .card:hover{
@@ -240,30 +270,6 @@
     
 
 }
-
-
-/* PARTE DO LOGIN */
-
-    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 /* PARTE DO RESPONSIVO */
