@@ -202,7 +202,7 @@
     font-size: 35px;
     font-weight: bolder;
     color:  rgb(20, 20, 20);
-    text-shadow: 3, 1, 1;
+    text-shadow: 3px 3px 3px #ffffff
 
 }
 
@@ -211,8 +211,7 @@
     font-weight: normal;
     font-weight: bold;
     color: rgb(18, 18, 18);
-    backdrop-filter: blur(0.5px)
-       
+    text-shadow: 3px 3px 3px #ffffff  
 
 }
 
@@ -267,7 +266,7 @@
 }
 .footer-content{
 
-    background-color: blue;
+    background-color:#031a40;
     display: flex;
     align-items: center;
     justify-content: space-around;
