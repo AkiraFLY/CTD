@@ -25,7 +25,8 @@ header {
 
     display: flex;
     list-style: none;
-    gap: 24px;
+    gap:10px;
+    
 
 }
 
